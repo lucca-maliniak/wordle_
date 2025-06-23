@@ -1,0 +1,18 @@
+.canvas {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 50vh;
+  gap: 15px;
+}

@@ -1,0 +1,50 @@
+.finish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 30vw;
+  height: 70vh;
+  background: #131313;
+  border-radius: 6px;
+}
+
+.informations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.subtitle { 
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.area-restartGame {
+  flex: 1;
+}
+
+.restartGame {
+  background-color: #0b0;
+  width: 10vw;
+  height: 5vh;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
