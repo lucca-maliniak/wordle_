@@ -120,7 +120,7 @@ export default function Board() {
       if (index === currentGuessIdRef.current) {
         return {
           ...guess, 
-          currentWord: "",
+          currentWord: guess.currentWord.slice(0, -1),
         }
       } else {
         return guess
